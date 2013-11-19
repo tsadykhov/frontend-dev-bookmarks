@@ -3,33 +3,41 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Frontend Development Bookmarks by dypsilon</title>
-
+    <title>Frontend Development Bookmarks by tsadykhov</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/tsadykhov/frontend-dev-bookmarks">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/tsadykhov/frontend-dev-bookmarks/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/tsadykhov/frontend-dev-bookmarks/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1 class="header">Frontend Development Bookmarks</h1>
-        <p class="header">A huge, community supported list of resources for frontend developers.</p>
 
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/dypsilon/frontend-dev-bookmarks/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/dypsilon/frontend-dev-bookmarks/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/dypsilon/frontend-dev-bookmarks">View On GitHub</a></li>
-        </ul>
-
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/dypsilon">dypsilon</a></p>
-
-
-      </header>
       <section>
+        <div id="title">
+          <h1>Frontend Development Bookmarks</h1>
+          <p>A huge, community supported list of resources for frontend developers.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/tsadykhov">tsadykhov</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
         <ul>
 <li>Guides
 
@@ -215,10 +223,8 @@
 <a href="http://knockoutjs.com/">Knockout</a>: Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM) pattern</li>
 <li>
 <a href="http://sammyjs.org/">Sammy.js</a> is a tiny JavaScript framework developed to ease the pain and provide a basic structure for developing JavaScript applications.</li>
-<li>
-<a href="http://emberjs.com/">Ember.js</a>: A framework for creating ambitious web applications.</li>
-<li>
-<a href="https://github.com/petermichaux/maria">Maria</a>: The MVC framework for JavaScript applications. The real MVC. The Smalltalk MVC. The Gang of Four MVC.</li>
+<li><p><a href="http://emberjs.com/">Ember.js</a>: A framework for creating ambitious web applications.</p></li>
+<li><p><a href="https://github.com/petermichaux/maria">Maria</a>: The MVC framework for JavaScript applications. The real MVC. The Smalltalk MVC. The Gang of Four MVC.</p></li>
 <li>
 <a href="http://terrifically.org/composer/">Terrific Composer</a> is a Frontend Development Framework specifically designed for building deluxe frontends based on the <a href="http://terrifically.org/">Terrific concept</a>
 </li>
@@ -230,8 +236,7 @@
 <li><a href="http://weblogs.asp.net/dwahlin/archive/2012/07/08/javascript-data-binding-frameworks.aspx">JavaScript Data Binding Frameworks</a></li>
 </ul>
 </li>
-<li>
-<p>CSS</p>
+<li>CSS
 
 <ul>
 <li><a href="http://usablica.github.io/front-end-frameworks/compare.html?v=2.0">A collection of best frameworks</a></li>
@@ -364,8 +369,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Cross Browser</p>
+<li>Cross Browser
 
 <ul>
 <li><a href="http://nicolasgallagher.com/about-normalize-css/">Normalize.css</a></li>
@@ -373,8 +377,7 @@
 <li><a href="https://github.com/pazguille/viewport">Viewport Component</a></li>
 </ul>
 </li>
-<li>
-<p>Cross Device</p>
+<li>Cross Device
 
 <ul>
 <li>Responsive
@@ -572,8 +575,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Patterns &amp; Snippets</p>
+<li>Patterns &amp; Snippets
 
 <ul>
 <li><a href="http://bradfrost.github.io/this-is-responsive/patterns.html">Responsive Patterns</a></li>
@@ -581,8 +583,7 @@
 <li>The <a href="http://tympanus.net/codrops/category/blueprints/">Blueprints</a> are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration.</li>
 </ul>
 </li>
-<li>
-<p>DOM Manipulation</p>
+<li>DOM Manipulation
 
 <ul>
 <li>
@@ -591,8 +592,7 @@
 <a href="http://tirejs.com/">Tire</a> offers a more lightweight alternative to libraries such as jQuery, Prototype and Zepto.</li>
 </ul>
 </li>
-<li>
-<p>Typography</p>
+<li>Typography
 
 <ul>
 <li><a href="http://www.html5rocks.com/en/tutorials/webfonts/quick/">Quick guide to webfonts via @font-face</a></li>
@@ -627,8 +627,7 @@
 <a href="http://www.newnet-soft.com/blog/csstypography">CSS Typography cheat sheet</a>: Small roundup on CSS features that will enhance your web typography.</li>
 </ul>
 </li>
-<li>
-<p>Services (Free &amp; Commercial)</p>
+<li>Services (Free &amp; Commercial)
 
 <ul>
 <li><a href="http://www.thetoolbox.cc/">TheToolbox</a></li>
@@ -670,8 +669,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Programming &amp; Markup Languages</p>
+<li>Programming &amp; Markup Languages
 
 <ul>
 <li>CSS
@@ -765,8 +763,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Animation</p>
+<li>Animation
 
 <ul>
 <li><a href="http://jeremyckahn.github.com/stylie/">Stylie</a></li>
@@ -815,8 +812,7 @@
 <a href="https://github.com/miniMAC/magic">Magic</a> is a CSS3 framework with many animations, it's simple to use and many animations are cross-browser compatible.</li>
 </ul>
 </li>
-<li>
-<p>Widgets</p>
+<li>Widgets
 
 <ul>
 <li>Kits
@@ -934,8 +930,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Visualization</p>
+<li>Visualization
 
 <ul>
 <li><a href="https://github.com/thomasxiii/photon">Photon</a></li>
@@ -978,8 +973,7 @@
 <li><a href="http://christian-fei.com/tutorials/simple-vertical-timeline-with-css/">Responsive vertical timeline</a></li>
 </ul>
 </li>
-<li>
-<p>Validation &amp; Forms</p>
+<li>Validation &amp; Forms
 
 <ul>
 <li><a href="http://www.alajax.com/">ALAJAX</a></li>
@@ -1000,8 +994,7 @@
 <li><a href="http://remy.bach.me.uk/superlabels_demo/">jQuery Super Labels</a></li>
 </ul>
 </li>
-<li>
-<p>Transitions</p>
+<li>Transitions
 
 <ul>
 <li><a href="http://razorjack.net/quicksand/">Quicksand</a></li>
@@ -1010,16 +1003,14 @@
 <li><a href="http://www.ui-transitions.com/">Meaningful Transitions</a></li>
 </ul>
 </li>
-<li>
-<p>Numbers</p>
+<li>Numbers
 
 <ul>
 <li><a href="http://josscrowcroft.github.com/accounting.js/">accounting.js</a></li>
 <li><a href="https://github.com/sjkaliski/numbers.js">numbers.js</a></li>
 </ul>
 </li>
-<li>
-<p>Time and Dates</p>
+<li>Time and Dates
 
 <ul>
 <li>
@@ -1028,8 +1019,7 @@
 <li><a href="https://github.com/dbushell/Pikaday">Pikaday</a></li>
 </ul>
 </li>
-<li>
-<p>Search</p>
+<li>Search
 
 <ul>
 <li><a href="http://reyesr.github.com/fullproof/">Fullproof</a></li>
@@ -1037,8 +1027,7 @@
 <a href="http://lunrjs.com/">lunr.js</a> is a simple full text search engine for your client side applications.</li>
 </ul>
 </li>
-<li>
-<p>Testing</p>
+<li>Testing
 
 <ul>
 <li>
@@ -1063,8 +1052,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Template Engines</p>
+<li>Template Engines
 
 <ul>
 <li><a href="http://icanhazjs.com/">ICanHaz.js</a></li>
@@ -1096,8 +1084,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Routing And URLs</p>
+<li>Routing And URLs
 
 <ul>
 <li><a href="http://millermedeiros.github.com/crossroads.js/">Crossroads.js</a></li>
@@ -1113,8 +1100,7 @@
 <a href="https://github.com/pid/speakingurl">speakingurl</a>: generate a so called "static", "Clean URL", "Pretty URL" or "slug" from a string.</li>
 </ul>
 </li>
-<li>
-<p>Rich Text Editors</p>
+<li>Rich Text Editors
 
 <ul>
 <li><a href="http://xing.github.com/wysihtml5/">WYSIHTML5</a></li>
@@ -1128,8 +1114,7 @@
 <li><a href="http://vitalets.github.com/x-editable/">X-editable</a></li>
 </ul>
 </li>
-<li>
-<p>Code Viewers &amp; Editors</p>
+<li>Code Viewers &amp; Editors
 
 <ul>
 <li><a href="http://craig.is/making/rainbows">Rainbow.js</a></li>
@@ -1144,15 +1129,13 @@
 <a href="http://jakiestfu.github.io/Behave.js/">Behave.js</a> is a lightweight library for adding IDE style behaviors to plain text areas, making it much more enjoyable to write code in.</li>
 </ul>
 </li>
-<li>
-<p>Refactoring</p>
+<li>Refactoring
 
 <ul>
 <li><a href="http://perfectionkills.com/refactoring-javascript-with-kratko-js/">Refactoring Javascript with kratko.js</a></li>
 </ul>
 </li>
-<li>
-<p>Performance</p>
+<li>Performance
 
 <ul>
 <li><a href="http://coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/">Writing Fast, Memory-Efficient JavaScript</a></li>
@@ -1290,8 +1273,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Modularity &amp; Loaders</p>
+<li>Modularity &amp; Loaders
 
 <ul>
 <li>
@@ -1315,8 +1297,7 @@
 <li><a href="http://dailyjs.com/2013/05/20/terminology-modules/">Terminology: Modules</a></li>
 </ul>
 </li>
-<li>
-<p>Package Management</p>
+<li>Package Management
 
 <ul>
 <li><a href="http://twitter.github.com/bower/">bower</a></li>
@@ -1327,8 +1308,7 @@
 <li><a href="http://component.io/">component</a></li>
 </ul>
 </li>
-<li>
-<p>Image Manipulation</p>
+<li>Image Manipulation
 
 <ul>
 <li><a href="https://github.com/mezzoblue/PaintbrushJS">Paintbrush.js</a></li>
@@ -1336,8 +1316,7 @@
 <li><a href="http://deepliquid.com/content/Jcrop.html">jCrop</a></li>
 </ul>
 </li>
-<li>
-<p>HTTP</p>
+<li>HTTP
 
 <ul>
 <li><a href="http://www.w3.org/Protocols/rfc2616/rfc2616.html">Specification</a></li>
@@ -1345,8 +1324,7 @@
 <li><a href="http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/">Cross-domain Ajax with Cross-Origin Resource Sharing</a></li>
 </ul>
 </li>
-<li>
-<p>WebSocket</p>
+<li>WebSocket
 
 <ul>
 <li><a href="http://tools.ietf.org/html/rfc6455">Specification</a></li>
@@ -1358,8 +1336,7 @@
 <a href="https://github.com/sockjs/sockjs-client">SockJS</a> is a browser JavaScript library that provides a WebSocket-like object. SockJS gives you a coherent, cross-browser, Javascript API which creates a low latency, full duplex, cross-domain communication channel between the browser and the web server.</li>
 </ul>
 </li>
-<li>
-<p>Error Handling &amp; Debugging</p>
+<li>Error Handling &amp; Debugging
 
 <ul>
 <li>
@@ -1368,8 +1345,7 @@
 <li><a href="https://github.com/vimeo/tattletale">Tattletale</a></li>
 </ul>
 </li>
-<li>
-<p>Documentation</p>
+<li>Documentation
 
 <ul>
 <li>
@@ -1389,8 +1365,7 @@
 <li><a href="http://usejsdoc.org/">Using JSDoc</a></li>
 </ul>
 </li>
-<li>
-<p>Windows 8 Style</p>
+<li>Windows 8 Style
 
 <ul>
 <li><a href="http://metroui.org.ua/">Metro UI CSS</a></li>
@@ -1409,15 +1384,13 @@
 <a href="http://sarasoueidan.com/blog/windows8-animations">Windows-8-like animations with CSS3 and jQuery</a>: a demo made by Sara Soueidan about creating a Modern UI design like in Windows 8.</li>
 </ul>
 </li>
-<li>
-<p>Video</p>
+<li>Video
 
 <ul>
 <li><a href="http://sublimevideo.net/">SublimeVideo</a></li>
 </ul>
 </li>
-<li>
-<p>Audio</p>
+<li>Audio
 
 <ul>
 <li><a href="http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library">howler.js</a></li>
@@ -1425,8 +1398,7 @@
 <a href="http://stratus.sc/">Stratus 2</a> soundcloud player</li>
 </ul>
 </li>
-<li>
-<p>Library Collections</p>
+<li>Library Collections
 
 <ul>
 <li>
@@ -1442,8 +1414,7 @@
 <a href="http://pineapple.io/">pineapple.io</a>: A central hub of Tutorials, Tools and Assets for developers and designers</li>
 </ul>
 </li>
-<li>
-<p>Chat</p>
+<li>Chat
 
 <ul>
 <li><a href="https://xmpp-ftw.jit.su/">XMPP using JSON</a></li>
@@ -1451,8 +1422,7 @@
 <a href="http://conversejs.org/">Converse.js</a> is an open source, webchat client, that runs in the browser and can be integrated into any website.</li>
 </ul>
 </li>
-<li>
-<p>Prototyping</p>
+<li>Prototyping
 
 <ul>
 <li>
@@ -1462,8 +1432,7 @@
 <li><a href="http://imsky.github.com/holder/">Holder.js</a></li>
 </ul>
 </li>
-<li>
-<p>JSON</p>
+<li>JSON
 
 <ul>
 <li>
@@ -1472,8 +1441,7 @@
 <a href="https://github.com/jimhigson/oboe.js">Oboe.js</a> makes it really easy to start using json from a response before the ajax request completes; or even if it never completes.</li>
 </ul>
 </li>
-<li>
-<p>Presentations</p>
+<li>Presentations
 
 <ul>
 <li><a href="http://kirkas.ch/ascensor/">Ancesor.js</a></li>
@@ -1489,8 +1457,7 @@
 <li><a href="http://bartaz.github.io/impress.js/">impress.js</a></li>
 </ul>
 </li>
-<li>
-<p>Scrolling</p>
+<li>Scrolling
 
 <ul>
 <li><a href="http://joelb.me/scrollpath/">Scrollpath</a></li>
@@ -1499,8 +1466,7 @@
 <li><a href="http://johnpolacek.github.com/scrollorama/">Scrollorama</a></li>
 </ul>
 </li>
-<li>
-<p>Keyboard</p>
+<li>Keyboard
 
 <ul>
 <li><a href="http://craig.is/killing/mice">Mousetrap</a></li>
@@ -1508,8 +1474,7 @@
 <li><a href="http://mckamey.github.com/konami-js/">konami.js</a></li>
 </ul>
 </li>
-<li>
-<p>Tables &amp; DataGrids</p>
+<li>Tables &amp; DataGrids
 
 <ul>
 <li><a href="https://sites.google.com/site/y2intra/wiki/technology/javascript">Tablecloth.js</a></li>
@@ -1522,16 +1487,20 @@
 <li><a href="http://jsonenglish.com/projects/flex/">Flex</a></li>
 </ul>
 </li>
-<li>
-<p>Security</p>
+<li>Security
 
 <ul>
 <li>
 <a href="http://oauth.googlecode.com/svn/code/javascript/">oAuth Consumer Library</a> by John Kristian
 
 <ul>
-<li><a href="https://github.com/tmcw/ohauth">ohauth</a></li>
+<li>
+<a href="https://github.com/tmcw/ohauth">ohauth</a>
+
+<ul>
 <li><a href="http://mapbox.com/osmdev/2013/01/15/oauth-in-javascript/">How iD Logs in to OpenStreetMap</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="https://github.com/andreassolberg/jso">JSO - a Javascript OAuth Library</a></li>
@@ -1549,8 +1518,7 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Layout</p>
+<li>Layout
 
 <ul>
 <li>
@@ -1559,8 +1527,7 @@
 <a href="http://ed-lea.github.io/jquery-collagePlus/">CollagePlus</a>: This plugin for jQuery will arrange your images to fit exactly within a container.</li>
 </ul>
 </li>
-<li>
-<p>Misc</p>
+<li>Misc
 
 <ul>
 <li><a href="http://gildas-lormeau.github.com/zip.js/">zip.js</a></li>
@@ -1572,11 +1539,9 @@
 </li>
 </ul>
       </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
+
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+    
   </body>
 </html>
