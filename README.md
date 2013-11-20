@@ -1,4 +1,4 @@
-# Frontend Development
+# Frontend Development (http://tsadykhov.github.io/frontend-dev-bookmarks)
 
 + Guides
     + [Hack Design](http://hackdesign.org/courses/)
